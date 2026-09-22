@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /tmp/finance4.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance5.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance7.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance9.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance10.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance11.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance12.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(npx shadcn@latest add badge --yes)",
+      "Bash(curl -s -o /tmp/finance13.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance14.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/finance15.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(curl -s -o /tmp/dash.html -w \"dashboard HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard --max-time 8)",
+      "Bash(curl -s -o /tmp/fin.html -w \"finance HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard/finance --max-time 8)",
+      "Bash(npx shadcn@latest add textarea --yes)",
+      "Bash(curl -s -o /tmp/dash2.html -w \"dashboard HTTP %{http_code}\\\\n\" http://localhost:3000/dashboard --max-time 8)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npm init *)",
+      "Bash(npx playwright *)",
+      "Bash(node verify-theme.mjs)"
+    ]
+  }
+}
