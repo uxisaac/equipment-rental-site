@@ -6,6 +6,15 @@
         "shadcn@latest",
         "mcp"
       ]
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mokei/mcp-sqlite",
+        "--db",
+        "./database/equiprent.db"
+      ]
     }
   }
 }
