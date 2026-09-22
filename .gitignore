@@ -48,8 +48,9 @@ next-env.d.ts
 # stray empty Prisma db from before the switch to better-sqlite3
 /dev.db
 
-# leftover nested template clone (not part of this app)
+# leftover reference projects (not part of this app)
 /dashboard-designer
+/grid-deformation-effect-main
 
 # local-only Claude Code permissions
 .claude/settings.local.json
